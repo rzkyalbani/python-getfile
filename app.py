@@ -1,6 +1,6 @@
 import json, base64, os
 
-with open("/content/predict_student_with_XAI.ipynb", "r", encoding="utf-8") as f:
+with open("hasil.ipynb", "r", encoding="utf-8") as f:
     nb = json.load(f)
 
 os.makedirs("images", exist_ok=True)
